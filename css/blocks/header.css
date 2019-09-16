@@ -1,3 +1,26 @@
+@keyframes slideDown {
+    0% {
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    50% {
+        -webkit-transform: translateY(25px);
+        -ms-transform: translateY(25px);
+        -o-transform: translateY(25px);
+        transform: translateY(25px);
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
 .header {
     background-image: url('../../img/header-bg.jpg');
     background-position: center top;
@@ -64,6 +87,9 @@
     margin: 0 auto;
     text-decoration: none;
     cursor: pointer;
+    -webkit-animation: slideDown 1s ease-in-out infinite;
+    -o-animation: slideDown 1s ease-in-out infinite;
+    animation: slideDown 1s ease-in-out infinite;
 }
 
 

@@ -119,6 +119,8 @@
     }
 }
 
+/*    Media    */
+
 @media (max-width: 980px) {
     .content__wrap {
         grid-template-columns: repeat(4, minmax(10rem, 46.2rem));

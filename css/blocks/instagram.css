@@ -1,0 +1,76 @@
+.instagram {
+    background-image: url('../../img/instagram-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-color: #000000;
+}
+
+.instagram__info {
+    padding-top: 24%;
+    padding-bottom: 24%;
+    text-align: center;
+}
+
+.instagram__title {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: normal;
+    font-size: 6rem;
+    line-height: 7rem;
+    letter-spacing: 3.6rem;
+    color: #ffffff;
+}
+
+.instagram__text {
+    text-align: center;
+}
+
+.instagram__link {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 7.5rem;
+    letter-spacing: 1.2rem;
+    color: #f84545;
+    -webkit-transition: letter-spacing 500ms;
+    -moz-transition: letter-spacing 500ms;
+    -ms-transition: letter-spacing 500ms;
+    -o-transition: letter-spacing 500ms;
+    transition: letter-spacing 500ms;
+}
+
+.instagram__link:hover {
+    letter-spacing: 1.5rem;
+}
+
+/*    Media    */
+
+@media (max-width: 1280px) {
+    .instagram__title {
+        font-size: 5rem;
+        line-height: 6rem;
+        letter-spacing: 1.8rem;
+    }
+}
+
+@media (max-width: 580px) {
+    .instagram__title {
+        font-size: 3.5rem;
+        line-height: 4.5rem;
+        letter-spacing: .9rem;
+    }
+
+    .instagram__link {
+        font-size: 2rem;
+        line-height: 4.5rem;
+        letter-spacing: .6rem;
+    }
+
+    .instagram__link:hover {
+
+        letter-spacing: .9rem;
+    }
+}

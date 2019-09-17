@@ -1,0 +1,50 @@
+.footer__socials {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.socials__item {
+    margin-right: 4.1rem;
+}
+
+.socials__item:last-child {
+    margin-right: 0;}
+
+
+.socials__svg {
+    fill: #000000;
+    -webkit-transition: fill 500ms;
+    -moz-transition: fill 500ms;
+    -ms-transition: fill 500ms;
+    -o-transition: fill 500ms;
+    transition: fill 500ms;
+}
+
+.socials__svg:hover {
+    fill: #f84545;
+}
+
+.socials__svg--inst {
+    width: 2.7rem;
+    height: 2.6rem;
+}
+
+.socials__svg--fb {
+    width: 1.5rem;
+    height: 2.9rem;
+}
+
+.socials__svg--tw {
+    width: 2.7rem;
+    height: 2.2rem;
+}
+
+/*    Media    */
+
+@media (max-width: 768px) {
+    .socials__item {
+        margin: 15px;
+    }
+}
